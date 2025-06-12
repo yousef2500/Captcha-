@@ -6,6 +6,7 @@ import io
 import numpy as np
 import cv2
 
+
 # تحليل الصورة وتحديد المكان من 1 إلى 9
 def match_emoji(image: Image.Image) -> int:
     img = np.array(image.convert("RGB"))
