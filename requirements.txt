@@ -1,4 +1,0 @@
-pytesseract
-pillow
-aiohttp
-aiogram==2.25.2
