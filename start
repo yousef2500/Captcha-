@@ -1,2 +1,7 @@
 #!/bin/bash
+
+# تثبيت tesseract
+apt-get update && apt-get install -y tesseract-ocr
+
+# تشغيل البوت
 python3 bot/main.py
